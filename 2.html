@@ -619,21 +619,7 @@
         </header>
         
         <div class="content">
-            <!-- المقدمة -->
-            <section class="section">
-                <h2><i class="fas fa-shapes"></i> مقدمة: المساحة والمحيط</h2>
-                
-                <div class="rule-box">
-                    <h3><i class="fas fa-ruler-combined"></i> تعريف:</h3>
-                    <p class="arabic-text">المحيط هو الطول الكلي لحدود الشكل الهندسي الخارجية.</p>
-                    <p class="arabic-text">المساحة هي مقدار السطح الذي يشغله الشكل الهندسي.</p>
-                </div>
 
-                <div class="shape-visual">
-                    <div class="shape-symbol">◼ △ ◯</div>
-                    <p class="arabic-text"><strong>الأشكال الهندسية</strong> - مربع، مثلث، دائرة، ومستطيل</p>
-                </div>
-            </section>
 
             <div class="chapter-divider">
                 <span>الأشكال الهندسية</span>
@@ -644,59 +630,6 @@
                 <h2><i class="fas fa-shapes"></i> قوانين المساحة والمحيط للأشكال الهندسية</h2>
                 
                 <div class="shape-grid">
-                    <!-- المربع -->
-                    <div class="shape-card">
-                        <div class="shape-title">المربع</div>
-                        <div class="shape-icon">◼</div>
-                        <div class="shape-formula">المحيط: P = 4 × c</div>
-                        <div class="shape-formula">المساحة: S = c × c = c²</div>
-                        <div class="shape-variables">
-                            <div class="variable">
-                                <span>الضلع:</span>
-                                <span>c</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- المستطيل -->
-                    <div class="shape-card">
-                        <div class="shape-title">المستطيل</div>
-                        <div class="shape-icon">▭</div>
-                        <div class="shape-formula">المحيط: P = (L + l) × 2</div>
-                        <div class="shape-formula">المساحة: S = L × l</div>
-                        <div class="shape-variables">
-                            <div class="variable">
-                                <span>الطول:</span>
-                                <span>L</span>
-                            </div>
-                            <div class="variable">
-                                <span>العرض:</span>
-                                <span>l</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- متوازي الأضلاع -->
-                    <div class="shape-card">
-                        <div class="shape-title">متوازي الأضلاع</div>
-                        <div class="shape-icon">▱</div>
-                        <div class="shape-formula">المحيط: P = (L + l) × 2</div>
-                        <div class="shape-formula">المساحة: S = L × h</div>
-                        <div class="shape-variables">
-                            <div class="variable">
-                                <span>الطول:</span>
-                                <span>L</span>
-                            </div>
-                            <div class="variable">
-                                <span>العرض:</span>
-                                <span>l</span>
-                            </div>
-                            <div class="variable">
-                                <span>الارتفاع:</span>
-                                <span>h</span>
-                            </div>
-                        </div>
-                    </div>
 
                     <!-- المعين -->
                     <div class="shape-card">
@@ -720,6 +653,24 @@
                         </div>
                     </div>
 
+
+                    <!-- المربع -->
+                    <div class="shape-card">
+                        <div class="shape-title">المربع</div>
+                        <div class="shape-icon">◼</div>
+                        <div class="shape-formula">المحيط: P = 4 × c</div>
+                        <div class="shape-formula">المساحة: S = c × c = c²</div>
+                        <div class="shape-variables">
+                            <div class="variable">
+                                <span>الضلع:</span>
+                                <span>c</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+
                     <!-- شبه المنحرف -->
                     <div class="shape-card">
                         <div class="shape-title">شبه المنحرف</div>
@@ -742,23 +693,6 @@
                         </div>
                     </div>
 
-                    <!-- المثلث -->
-                    <div class="shape-card">
-                        <div class="shape-title">المثلث</div>
-                        <div class="shape-icon">△</div>
-                        <div class="shape-formula">المحيط: P = a + b + c</div>
-                        <div class="shape-formula">المساحة: S = (b × h) ÷ 2</div>
-                        <div class="shape-variables">
-                            <div class="variable">
-                                <span>القاعدة:</span>
-                                <span>b</span>
-                            </div>
-                            <div class="variable">
-                                <span>الارتفاع:</span>
-                                <span>h</span>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
 
@@ -789,34 +723,6 @@
                             </div>
                         </div>
                         
-                        <div class="question-wrapper">
-                            <div class="question">
-                                <div class="question-content arabic-text">
-                                    مستطيل طوله 8 سم وعرضه 3 سم، ما هي مساحته ومحيطه؟
-                                </div>
-                                <button class="answer-btn" onclick="toggleAnswer(2, event)">
-                                    <i class="fas fa-eye"></i> عرض الإجابة
-                                </button>
-                            </div>
-                            <div class="answer arabic-text" id="answer2">
-                                <p>المساحة = 8 × 3 = 24 سم²</p>
-                                <p>المحيط = (8 + 3) × 2 = 22 سم</p>
-                            </div>
-                        </div>
-
-                        <div class="question-wrapper">
-                            <div class="question">
-                                <div class="question-content arabic-text">
-                                    مثلث قاعدته 6 سم وارتفاعه 4 سم، ما هي مساحته؟
-                                </div>
-                                <button class="answer-btn" onclick="toggleAnswer(3, event)">
-                                    <i class="fas fa-eye"></i> عرض الإجابة
-                                </button>
-                            </div>
-                            <div class="answer arabic-text" id="answer3">
-                                <p>المساحة = (6 × 4) ÷ 2 = 12 سم²</p>
-                            </div>
-                        </div>
 
                         <div class="question-wrapper">
                             <div class="question">
